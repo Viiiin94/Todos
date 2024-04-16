@@ -1,5 +1,4 @@
 import { lazy } from "react";
-
 import { Outlet } from "react-router-dom";
 
 const Header = lazy(() => import("../components/Header"));
@@ -9,7 +8,9 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <Outlet />
+      <div>
+        <Outlet />
+      </div>
       <Footer />
     </>
   );

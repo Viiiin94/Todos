@@ -1,7 +1,11 @@
-import React from "react";
+import "./Footer.scss";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer className="footer__container">
+      <div className="footer__container__wrapper">투두</div>
+    </footer>
+  );
 };
 
 export default Footer;

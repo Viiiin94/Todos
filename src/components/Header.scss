@@ -1,0 +1,15 @@
+.header__container {
+  max-width: 1920px;
+  width: calc(100%);
+  display: flex;
+  position: relative;
+
+  &__wrapper {
+    max-width: 1440px;
+    width: 100dvw;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+  }
+}
